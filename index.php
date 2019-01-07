@@ -1,7 +1,8 @@
 <html>
 	<head>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<style>
-			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+			
 			body{
 				background-color:  rgba(3, 11, 20,0.95);
 			margin: 0px;

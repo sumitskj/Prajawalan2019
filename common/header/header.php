@@ -1,5 +1,5 @@
 <div style = 'z-index:2'> 
-    <img id="logoNew" src="./prajName.png" style="position: absolute;z-index: 2;top:0;left:-10px">
+    <a href="http://prajwalan.org"><img id="logoNew" src="./prajName.png" style="position: absolute;z-index: 2;top:0;left:-10px;cursor:pointer"></a>
             <h1 class="ml5">
                     <span class="text-wrapper">
                     <span class="line line1"></span>
