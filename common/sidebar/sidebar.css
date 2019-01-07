@@ -1,0 +1,145 @@
+.menu{
+    background-color: rgba(3, 11, 20,0.95);
+    /*box-shadow: -5px 0px 18px rgba(194, 205, 218, 0.95);*/
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    text-align: center;
+    left: 98%;
+    top: 0rem;
+    z-index: 5;
+}
+svg{
+    fill: #fafafa;
+    cursor: pointer;
+}
+svg:hover{
+    
+    animation: menu-icon-anim 3s ease-in-out forwards;
+}
+
+
+@keyframes expand{
+    0%{left: 98%;height: 100%;}
+    100%{left: 25%;height: 100%;}
+}
+@keyframes contract{
+    0%{left: 25%;height: 100%;}
+    100%{left: 98%;height: 100%;}
+}
+.menu-icon{
+    width: 9%;
+    margin: 4% 7%;
+    height: 15%;
+}
+.menu-name{
+    width: 10%;
+    margin: 4% 6.5%;
+    margin-top: 13%;
+    margin-bottom: 2%;
+    color: #fafafa;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.overlay{
+    z-index: 2;
+    position: fixed;
+    right: 0px;
+    width: 0px;
+    height: 100%;
+    background: #fafafa;
+
+}
+@keyframes overlay-anim{
+    0%{width: 0%;right: 0%;}
+    25%{width: 30%;right: 0%;}
+    50%{width: 100%;right: 0%}
+    75%{width: 100%;right: 0%}
+    
+    100%{width: 0%;right: 100%;}
+}
+
+@keyframes menu-icon-anim{
+    0%{fill: #fafafa}
+    25%{fill: salmon}
+    75%{fill:darkgray}
+    100%{fill: aqua}
+}
+#menu-button{
+    position: fixed;
+    top:46%;
+    border-radius: 70% 0 0 70%;
+    width: 50px;
+    right: 0%;
+    background-color: #fafafa;
+    height: 60px;
+}
+#strip{
+    width: 2%;
+    height: 100%;
+    background-color: #fafafa;
+}
+.menu-line{
+    
+    display: inline-block;
+    padding: 2px;
+    height: 30px;
+    border-radius: 20%;
+    width: 1px;
+    margin-top: 11px;
+    background: rgb(3, 11, 20);
+}
+
+.ml14 {
+    font-weight: 200;
+    font-size: 74%;
+  }
+  
+  .ml14 .text-wrapper {
+    position: relative;
+    display: inline-block;
+    padding-top: 0.1em;
+    padding-right: 0.05em;
+    padding-bottom: 0.15em;
+  }
+  
+  .ml14 .line {
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    height: 2px;
+    width: 100%;
+    background-color: #fff;
+    transform-origin: 100% 100%;
+    bottom: 0;
+  }
+  
+  .ml14 .letter {
+    display: inline-block;
+    line-height: 1em;
+  }
+
+  @media only screen and (max-width: 1000px) {
+    .ml14 {
+      font-size: 1.1vw;
+    }
+    .menu-name{
+        margin-top: 16vh;
+        margin-bottom: 4vh;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    .ml14{
+        font-size: 1.4vw;
+    }
+    .menu-icon{
+        width: 20%;
+    }
+    .menu-name{
+        width: 20%;
+        margin-top: 15vh;
+        margin-bottom: 3vh;
+    }
+  }
