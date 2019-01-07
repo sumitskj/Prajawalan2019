@@ -304,13 +304,27 @@ function closeNav() {
 
 <!--Core Supporting-->
 
-        <div class="container parallax" id="csu">
+        <div class="container" id="csu">
         
         
         <div class= "heading "><h1>Core Suporting</h1></div>
         <div class="row">
-        <div class="col-md-2 mob"></div>
         <div class="col-md-4">
+            <div class="card">
+            <div class="flip-card rounded">
+            <div class="flip-card-inner">
+                                  <div class="flip-card-front">
+                                    <img src="./contact/img/core-support/ameya.jpg" class="img-fluid" alt="Avatar" >
+                                  </div>
+                                  <div class="flip-card-back">
+                                    <h1>Ameya Deshpande</h1> 
+                                    <h2>Convenor</h2> 
+                                  </div>
+                                </div>
+            </div>
+            </div>
+            </div>        
+            <div class="col-md-4">
             <div class="card">
             <div class="flip-card rounded">
             <div class="flip-card-inner">
@@ -340,7 +354,54 @@ function closeNav() {
             </div>
             </div>
             </div>
-        <div class="col-md-2 mob"></div>
+        </div>
+
+        <div class="row">
+        <div class="col-md-4">
+            <div class="card">
+            <div class="flip-card rounded">
+            <div class="flip-card-inner">
+                                  <div class="flip-card-front">
+                                    <img src="./contact/img/core-support/ameya.jpg" class="img-fluid" alt="Avatar" >
+                                  </div>
+                                  <div class="flip-card-back">
+                                    <h1>Ameya Deshpande</h1> 
+                                    <h2>Convenor</h2> 
+                                  </div>
+                                </div>
+            </div>
+            </div>
+            </div>        
+            <div class="col-md-4">
+            <div class="card">
+            <div class="flip-card rounded">
+            <div class="flip-card-inner">
+                                  <div class="flip-card-front">
+                                    <img src="./contact/img/core-support/ameya.jpg" class="img-fluid" alt="Avatar" >
+                                  </div>
+                                  <div class="flip-card-back">
+                                    <h1>Ameya Deshpande</h1> 
+                                    <h2>Convenor</h2> 
+                                  </div>
+                                </div>
+            </div>
+            </div>
+            </div>
+          <div class="col-md-4">
+            <div class="card">
+            <div class="flip-card rounded">
+            <div class="flip-card-inner">
+                                  <div class="flip-card-front">
+                                    <img src="./contact/img/female-noimage.jpg" class="img-fluid" alt="Avatar" >
+                                  </div>
+                                  <div class="flip-card-back">
+                                    <h1>Apurva Bedre</h1> 
+                                    <h2>Convenor</h2> 
+                                  </div>
+                                </div>
+            </div>
+            </div>
+            </div>
         </div>
 </div>
 
@@ -348,9 +409,8 @@ function closeNav() {
 
         <div class="container parallax" id="csp">
        
-        <div class= "heading "><h1>Core Suporting</h1></div>
+        <div class= "heading "><h1>Core Sponsorship</h1></div>
         <div class="row">
-        <div class="col-md-4 mob"></div>
         <div class="col-md-4">
             <div class="card">
             <div class="flip-card rounded">
@@ -365,21 +425,50 @@ function closeNav() {
                                 </div>
             </div>
             </div>
+            </div>       
+            <div class="col-md-4">
+            <div class="card">
+            <div class="flip-card rounded">
+            <div class="flip-card-inner">
+                                  <div class="flip-card-front">
+                                    <img src="./contact/img/female-noimage.jpg" class="img-fluid" alt="Avatar" >
+                                  </div>
+                                  <div class="flip-card-back">
+                                    <h1>Eshwari Shingwekar</h1> 
+                                    <h2>Convenor</h2> 
+                                  </div>
+                                </div>
             </div>
-            <div class="col-md-4 mob"></div>
+            </div>
+            </div>
+            <div class="col-md-4">
+            <div class="card">
+            <div class="flip-card rounded">
+            <div class="flip-card-inner">
+                                  <div class="flip-card-front">
+                                    <img src="./contact/img/female-noimage.jpg" class="img-fluid" alt="Avatar" >
+                                  </div>
+                                  <div class="flip-card-back">
+                                    <h1>Eshwari Shingwekar</h1> 
+                                    <h2>Convenor</h2> 
+                                  </div>
+                                </div>
+            </div>
+            </div>
+            </div>
 
+            
 </div>
 </div>
         
 
    <!--Event Sponsorship-->
 
-  <div class="container parallax" id="esp">
+  <div class="container " id="esp">
         
         
         <div class= "heading "><h1>Event Sponsorship</h1></div>
         <div class="row">
-        <div class="col-md-4 mob"></div>
         <div class="col-md-4">
             <div class="card">
             <div class="flip-card rounded">
@@ -395,7 +484,71 @@ function closeNav() {
             </div>
             </div>
             </div>
-        <div class="col-md-4 mob"></div>
+            <div class="col-md-4">
+            <div class="card">
+            <div class="flip-card rounded">
+            <div class="flip-card-inner">
+                                  <div class="flip-card-front">
+                                    <img src="./contact/img/event-sponsorship/bhushan.jpg" class="img-fluid" alt="Avatar" >
+                                  </div>
+                                  <div class="flip-card-back">
+                                    <h1>Bhushan Agarwal</h1> 
+                                    <h2>Convenor</h2> 
+                                  </div>
+            </div>
+            </div>
+            </div>
+            </div>
+            <div class="col-md-4">
+            <div class="card">
+            <div class="flip-card rounded">
+            <div class="flip-card-inner">
+                                  <div class="flip-card-front">
+                                    <img src="./contact/img/event-sponsorship/bhushan.jpg" class="img-fluid" alt="Avatar" >
+                                  </div>
+                                  <div class="flip-card-back">
+                                    <h1>Bhushan Agarwal</h1> 
+                                    <h2>Convenor</h2> 
+                                  </div>
+            </div>
+            </div>
+            </div>
+            </div>
+            </div>
+
+            <div class="row">
+        <div class="col-md-2 mob"></div>
+        <div class="col-md-4">
+            <div class="card">
+            <div class="flip-card rounded">
+            <div class="flip-card-inner">
+                                  <div class="flip-card-front">
+                                    <img src="./contact/img/networking/ankit.jpg" class="img-fluid" alt="Avatar" >
+                                  </div>
+                                  <div class="flip-card-back">
+                                    <h1>Ankit Warjurkar</h1> 
+                                    <h2>Convenor</h2> 
+                                  </div>
+                                </div>
+            </div>
+            </div>
+            </div>
+          <div class="col-md-4">
+            <div class="card">
+            <div class="flip-card rounded">
+            <div class="flip-card-inner">
+                                  <div class="flip-card-front">
+                                    <img src="./contact/img/female-noimage.jpg" class="img-fluid" alt="Avatar" >
+                                  </div>
+                                  <div class="flip-card-back">
+                                    <h1>Namrata Gajbhiye</h1> 
+                                    <h2>Convenor</h2> 
+                                  </div>
+                                </div>
+            </div>
+            </div>
+            </div>
+        <div class="col-md-2 mob"></div>
         </div>
 </div>
 
@@ -406,7 +559,6 @@ function closeNav() {
         
         <div class= "heading "><h1>Alumini Sponsorship</h1></div>
         <div class="row">
-        <div class="col-md-4 mob"></div>
         <div class="col-md-4">
             <div class="card">
             <div class="flip-card rounded">
@@ -422,14 +574,94 @@ function closeNav() {
             </div>
             </div>
             </div>
-        <div class="col-md-4 mob"></div>
-        </div>
+            <div class="col-md-4">
+            <div class="card">
+            <div class="flip-card rounded">
+            <div class="flip-card-inner">
+                                  <div class="flip-card-front">
+                                    <img src="./contact/img/alumini-sponsorship/shweta.jpg" class="img-fluid" alt="Avatar" >
+                                  </div>
+                                  <div class="flip-card-back">
+                                    <h1>Shweta Joshi</h1> 
+                                    <h2>Convenor</h2> 
+                                  </div>
+            </div>
+            </div>
+            </div>
+            </div>
+            <div class="col-md-4">
+            <div class="card">
+            <div class="flip-card rounded">
+            <div class="flip-card-inner">
+                                  <div class="flip-card-front">
+                                    <img src="./contact/img/alumini-sponsorship/shweta.jpg" class="img-fluid" alt="Avatar" >
+                                  </div>
+                                  <div class="flip-card-back">
+                                    <h1>Shweta Joshi</h1> 
+                                    <h2>Convenor</h2> 
+                                  </div>
+            </div>
+            </div>
+            </div>
+            </div>
+            </div>
 </div>
 
 <!--Publicity-->
-<div class="container parallax" id="pub">
+<div class="container" id="pub">
       
         <div class= "heading"><h1 style="margin-top:75px; text-align:center;">Publicity</h1></div>
+        <div class="row">
+            <div class="col-md-4">
+            <div class="card">
+            <div class="flip-card rounded">
+            <div class="flip-card-inner">
+                                  <div class="flip-card-front">
+                                    <img src="./contact/img/female-noimage.jpg" class="img-fluid" alt="Avatar" >
+                                  </div>
+                                  <div class="flip-card-back">
+                                    <h1 class="name">Harshada Ingole</h1> 
+                                    <h2>Convenor</h2> 
+                                  </div>
+                                </div>
+            </div>
+            </div>
+            </div>
+
+            <div class="col-md-4">
+            <div class="card">
+            <div class="flip-card rounded">
+            <div class="flip-card-inner">
+                                  <div class="flip-card-front">
+                                    <img src="./contact/img/male-noimage.png" class="img-fluid" alt="Avatar" >
+                                  </div>
+                                  <div class="flip-card-back">
+                                    <h1 class="name">Shyam Kulkarni</h1> 
+                                    <h2>Convenor</h2> 
+                                  </div>
+                                </div>
+            </div>
+            </div>
+            </div>
+
+
+            <div class="col-md-4">
+            <div class="card">
+            <div class="flip-card rounded">
+            <div class="flip-card-inner">
+                                  <div class="flip-card-front">
+                                    <img src="./contact/img/female-noimage.jpg" class="img-fluid" alt="Avatar" >
+                                  </div>
+                                  <div class="flip-card-back">
+                                    <h1 class="name">Palak Katira</h1> 
+                                    <h2>Convenor</h2> 
+                                  </div>
+                                </div>
+            </div>
+            </div>
+            </div>
+        </div>
+
         <div class="row">
             <div class="col-md-4">
             <div class="card">
@@ -489,7 +721,6 @@ function closeNav() {
         
         <div class= "heading "><h1>Outreach</h1></div>
         <div class="row">
-        <div class="col-md-4 mob"></div>
         <div class="col-md-4">
             <div class="card">
             <div class="flip-card rounded">
@@ -505,15 +736,95 @@ function closeNav() {
             </div>
             </div>
             </div>
-        <div class="col-md-4 mob"></div>
-        </div>
+            <div class="col-md-4">
+            <div class="card">
+            <div class="flip-card rounded">
+            <div class="flip-card-inner">
+                                  <div class="flip-card-front">
+                                    <img src="./contact/img/female-noimage.jpg" class="img-fluid" alt="Avatar" >
+                                  </div>
+                                  <div class="flip-card-back">
+                                    <h1>Prachi Thakur</h1> 
+                                    <h2>Convenor</h2> 
+                                  </div>
+            </div>
+            </div>
+            </div>
+            </div>
+            <div class="col-md-4">
+            <div class="card">
+            <div class="flip-card rounded">
+            <div class="flip-card-inner">
+                                  <div class="flip-card-front">
+                                    <img src="./contact/img/female-noimage.jpg" class="img-fluid" alt="Avatar" >
+                                  </div>
+                                  <div class="flip-card-back">
+                                    <h1>Prachi Thakur</h1> 
+                                    <h2>Convenor</h2> 
+                                  </div>
+            </div>
+            </div>
+            </div>
+            </div>
+            </div>
 </div>
 
 
 <!--Designing And Editing-->
-<div class="container parallax" id="des">
+<div class="container" id="des">
       
         <div class= "heading"><h1 style="margin-top:75px; text-align:center;">Core Designing & Editing</h1></div>
+        <div class="row">
+            <div class="col-md-4">
+            <div class="card">
+            <div class="flip-card rounded">
+            <div class="flip-card-inner">
+                                  <div class="flip-card-front">
+                                    <img src="./contact/img/designing/mohit.jpg" class="img-fluid" alt="Avatar" >
+                                  </div>
+                                  <div class="flip-card-back">
+                                    <h1 class="name">Mohit Lalwani</h1> 
+                                    <h2>Convenor</h2> 
+                                  </div>
+                                </div>
+            </div>
+            </div>
+            </div>
+
+            <div class="col-md-4">
+            <div class="card">
+            <div class="flip-card rounded">
+            <div class="flip-card-inner">
+                                  <div class="flip-card-front">
+                                    <img src="./contact/img/designing/pradeep.jpg" class="img-fluid" alt="Avatar" >
+                                  </div>
+                                  <div class="flip-card-back">
+                                    <h1 class="name">Pradeep Nokwal</h1> 
+                                    <h2>Convenor</h2> 
+                                  </div>
+                                </div>
+            </div>
+            </div>
+            </div>
+
+
+            <div class="col-md-4">
+            <div class="card">
+            <div class="flip-card rounded">
+            <div class="flip-card-inner">
+                                  <div class="flip-card-front">
+                                    <img src="./contact/img/designing/yash.jpg" class="img-fluid" alt="Avatar" >
+                                  </div>
+                                  <div class="flip-card-back">
+                                    <h1 class="name">Yash Bhandarwar</h1> 
+                                    <h2>Convenor</h2> 
+                                  </div>
+                                </div>
+            </div>
+            </div>
+            </div>
+        </div>
+
         <div class="row">
             <div class="col-md-4">
             <div class="card">
@@ -568,11 +879,59 @@ function closeNav() {
 
 <!--Networking-->
 
-<div class="container parallax" id="net">
+<div class="container" id="net">
         
         
         <div class= "heading "><h1>Networking</h1></div>
         <div class="row">
+        <div class="col-md-4">
+            <div class="card">
+            <div class="flip-card rounded">
+            <div class="flip-card-inner">
+                                  <div class="flip-card-front">
+                                    <img src="./contact/img/event-sponsorship/bhushan.jpg" class="img-fluid" alt="Avatar" >
+                                  </div>
+                                  <div class="flip-card-back">
+                                    <h1>Bhushan Agarwal</h1> 
+                                    <h2>Convenor</h2> 
+                                  </div>
+            </div>
+            </div>
+            </div>
+            </div>
+            <div class="col-md-4">
+            <div class="card">
+            <div class="flip-card rounded">
+            <div class="flip-card-inner">
+                                  <div class="flip-card-front">
+                                    <img src="./contact/img/event-sponsorship/bhushan.jpg" class="img-fluid" alt="Avatar" >
+                                  </div>
+                                  <div class="flip-card-back">
+                                    <h1>Bhushan Agarwal</h1> 
+                                    <h2>Convenor</h2> 
+                                  </div>
+            </div>
+            </div>
+            </div>
+            </div>
+            <div class="col-md-4">
+            <div class="card">
+            <div class="flip-card rounded">
+            <div class="flip-card-inner">
+                                  <div class="flip-card-front">
+                                    <img src="./contact/img/event-sponsorship/bhushan.jpg" class="img-fluid" alt="Avatar" >
+                                  </div>
+                                  <div class="flip-card-back">
+                                    <h1>Bhushan Agarwal</h1> 
+                                    <h2>Convenor</h2> 
+                                  </div>
+            </div>
+            </div>
+            </div>
+            </div>
+            </div>
+
+            <div class="row">
         <div class="col-md-2 mob"></div>
         <div class="col-md-4">
             <div class="card">
@@ -610,9 +969,60 @@ function closeNav() {
 
 
 <!--Infrastructure-->
-<div class="container parallax" id="infra">
+<div class="container" id="infra">
       
         <div class= "heading"><h1 style="margin-top:75px; text-align:center;">Infrastructure</h1></div>
+        <div class="row">
+            <div class="col-md-4">
+            <div class="card">
+            <div class="flip-card rounded">
+            <div class="flip-card-inner">
+                                  <div class="flip-card-front">
+                                    <img src="./contact/img/Infra/lankesh.jpg" class="img-fluid" alt="Avatar" >
+                                  </div>
+                                  <div class="flip-card-back">
+                                    <h1 class="name">Lankesh Purekar</h1> 
+                                    <h2>Convenor</h2> 
+                                  </div>
+                                </div>
+            </div>
+            </div>
+            </div>
+
+            <div class="col-md-4">
+            <div class="card">
+            <div class="flip-card rounded">
+            <div class="flip-card-inner">
+                                  <div class="flip-card-front">
+                                    <img src="./contact/img/Infra/sharayu.jpeg" class="img-fluid" alt="Avatar" >
+                                  </div>
+                                  <div class="flip-card-back">
+                                    <h1 class="name">Sharayu Dahake</h1> 
+                                    <h2>Convenor</h2> 
+                                  </div>
+                                </div>
+            </div>
+            </div>
+            </div>
+
+
+            <div class="col-md-4">
+            <div class="card">
+            <div class="flip-card rounded">
+            <div class="flip-card-inner">
+                                  <div class="flip-card-front">
+                                    <img src="./contact/img/Infra/sanghal.jpg" class="img-fluid" alt="Avatar" >
+                                  </div>
+                                  <div class="flip-card-back">
+                                    <h1 class="name">Sangal Sahare</h1> 
+                                    <h2>Convenor</h2> 
+                                  </div>
+                                </div>
+            </div>
+            </div>
+            </div>
+        </div>
+
         <div class="row">
             <div class="col-md-4">
             <div class="card">
@@ -669,10 +1079,8 @@ function closeNav() {
 <div class="container parallax" id="mag">
         
         
-        <div class= "heading "><h1>Prajwalan
-Publication</h1></div>
+        <div class= "heading "><h1>Prajwalan Publication</h1></div>
         <div class="row">
-        <div class="col-md-4 mob"></div>
         <div class="col-md-4">
             <div class="card">
             <div class="flip-card rounded">
@@ -688,8 +1096,37 @@ Publication</h1></div>
             </div>
             </div>
             </div>
-        <div class="col-md-4 mob"></div>
-        </div>
+            <div class="col-md-4">
+            <div class="card">
+            <div class="flip-card rounded">
+            <div class="flip-card-inner">
+                                  <div class="flip-card-front">
+                                    <img src="./contact/img/female-noimage.jpg" class="img-fluid" alt="Avatar" >
+                                  </div>
+                                  <div class="flip-card-back">
+                                    <h1>Padmini Shinde</h1> 
+                                    <h2>Convenor</h2> 
+                                  </div>
+            </div>
+            </div>
+            </div>
+            </div>
+            <div class="col-md-4">
+            <div class="card">
+            <div class="flip-card rounded">
+            <div class="flip-card-inner">
+                                  <div class="flip-card-front">
+                                    <img src="./contact/img/female-noimage.jpg" class="img-fluid" alt="Avatar" >
+                                  </div>
+                                  <div class="flip-card-back">
+                                    <h1>Padmini Shinde</h1> 
+                                    <h2>Convenor</h2> 
+                                  </div>
+            </div>
+            </div>
+            </div>
+            </div>
+            </div>
 </div>
 
 <!--Audit-->
@@ -699,7 +1136,6 @@ Publication</h1></div>
         
         <div class= "heading "><h1>Audit</h1></div>
         <div class="row">
-        <div class="col-md-4 mob"></div>
         <div class="col-md-4">
             <div class="card">
             <div class="flip-card rounded">
@@ -715,8 +1151,37 @@ Publication</h1></div>
             </div>
             </div>
             </div>
-        <div class="col-md-4 mob"></div>
-        </div>
+            <div class="col-md-4">
+            <div class="card">
+            <div class="flip-card rounded">
+            <div class="flip-card-inner">
+                                  <div class="flip-card-front">
+                                    <img src="./contact/img/female-noimage.jpg" class="img-fluid" alt="Avatar" >
+                                  </div>
+                                  <div class="flip-card-back">
+                                    <h1>Pratiksha Parashar</h1> 
+                                    <h2>Convenor</h2> 
+                                  </div>
+            </div>
+            </div>
+            </div>
+            </div>
+            <div class="col-md-4">
+            <div class="card">
+            <div class="flip-card rounded">
+            <div class="flip-card-inner">
+                                  <div class="flip-card-front">
+                                    <img src="./contact/img/female-noimage.jpg" class="img-fluid" alt="Avatar" >
+                                  </div>
+                                  <div class="flip-card-back">
+                                    <h1>Pratiksha Parashar</h1> 
+                                    <h2>Convenor</h2> 
+                                  </div>
+            </div>
+            </div>
+            </div>
+            </div>
+            </div>
 </div>
 
 
