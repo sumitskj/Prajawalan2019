@@ -1,0 +1,76 @@
+.ml5 {
+    position: absolute;
+    font-weight: bold;
+    top:4vw;
+    letter-spacing: 0.15vw;
+    margin-left: 0px !important;
+    padding: 0.2vw;
+    font-size: 1.5vw;
+    color: #fafafa;
+  }
+  
+  .ml5 .text-wrapper {
+    position: relative;
+    display: inline-block;
+    padding-top: 0.1em;
+    padding-right: 0.05em;
+    padding-bottom: 0.15em;
+    line-height: 1em;
+  }
+  
+  .ml5 .line {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    height: 0.3vw;
+    width: 100%;
+    background-color: #fafafa;
+    transform-origin: 0.5 0;
+  }
+  
+  .ml5 .ampersand {
+    font-family: Baskerville, "EB Garamond", serif;
+    font-style: italic;
+    font-weight: 400;
+    width: 1em;
+    margin-right: -0.1em;
+    margin-left: -0.1em;
+  }
+  
+  .ml5 .letters {
+    display: inline-block;
+    opacity: 0;
+  }
+
+  #logoNew1{
+    display: block;
+  }
+  #logoNew{
+    width: 40%;
+  }
+
+
+  @media only screen and (max-width: 1000px) {
+    .ml5 .line{
+      height: 2px;
+    }
+  }
+
+  
+
+  @media only screen and (max-width: 600px) {
+    .ml5{
+      letter-spacing: 0.9vw;
+      top: 10vw;
+      font-size: 3vw;
+    }
+    
+    #logoNew1{
+      display: none;
+    }
+    #logoNew{
+      width: 100%;
+    }
+  }
