@@ -10,7 +10,7 @@ function init() {
 
     
     camera = new THREE.PerspectiveCamera( 40, window.innerWidth / window.innerHeight, 1, 10000 );
-    camera.position.z = 2500;
+    camera.position.z = 4000-window.innerWidth;
     
     
     scene = new THREE.Scene();
@@ -79,7 +79,7 @@ function onWindowResize() {
     camera.aspect = window.innerWidth / window.innerHeight;
     camera.updateProjectionMatrix();
     renderer.setSize( window.innerWidth, window.innerHeight );
-    
+    camera.position.z = 4000-window.innerWidth;
 
     render();
 

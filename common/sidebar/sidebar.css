@@ -5,7 +5,7 @@
     height: 100%;
     position: fixed;
     text-align: center;
-    left: 98%;
+    left: 98.5%;
     top: 0rem;
     z-index: 5;
 }
@@ -76,7 +76,7 @@ svg:hover{
     height: 60px;
 }
 #strip{
-    width: 2%;
+    width: 4.2vh;
     height: 100%;
     background-color: #fafafa;
 }
@@ -128,7 +128,11 @@ svg:hover{
         margin-top: 16vh;
         margin-bottom: 4vh;
     }
+    .menu{
+        left: 97%;
+    }
   }
+  
 
   @media only screen and (max-width: 600px) {
     .ml14{
@@ -136,6 +140,9 @@ svg:hover{
     }
     .menu-icon{
         width: 20%;
+    }
+    .menu{
+        left: 95%;
     }
     .menu-name{
         width: 20%;

@@ -45,10 +45,10 @@
 	color: #fafafa;
 	display: inline-block;
 	font-weight: 100;
-	text-align: center;
+	
     font-size: 30px;
-    left: 0;
-    right: 0;
+    left: 2%;
+    
     margin: auto;
     margin-bottom: 2%;
 }
@@ -73,8 +73,8 @@
 }
 .right_icons_div{
     position: absolute;
-    top: 30%;
-    right: 13%;
+    top: 13vw;
+    right: 8%;
 }
 .left_icon_div{
     position: absolute;
@@ -99,6 +99,7 @@
 
 @media only screen and (max-width: 600px) {
     #clockdiv{
+        display: none;
         font-size: 30px;
     }
     #clockdiv div > span{

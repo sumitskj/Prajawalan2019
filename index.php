@@ -1,9 +1,11 @@
 <html>
 	<head>
 		<style>
+			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 			body{
-			background-color:  rgba(3, 11, 20,0.95);
+				background-color:  rgba(3, 11, 20,0.95);
 			margin: 0px;
+			color:#fafafa;
 			font-family: "Montserrat", arial, sans-serif;
 			}
 			#background{
@@ -51,14 +53,26 @@
 				    bottom: 5%;
 				    right: 7%;
 			}
+			#slide_wrap img{
+				height: 10%
+			}
+			@media only screen and (max-width: 600px) {
+				#slide_wrap{
+					left:0;
+					right:0;
+					text-align: center
+				}
+				#slide_wrap img{
+					height: 5%
+				}
+			}
 		</style>
 		<link rel="stylesheet" type="text/css" href="main.css">
 		<link rel="stylesheet" type="text/css" href="social.css">
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 		<link rel="stylesheet" type="text/css" href="common/sidebar/sidebar.css">
 		<link rel="stylesheet" type="text/css" href="common/header/header.css">
-		<link rel="stylesheet" href="https://unpkg.com/tachyons@4.10.0/css/tachyons.min.css"/>
+		<link rel="stylesheet" href="tachyons.css"/>
 
 		
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -70,6 +84,7 @@
 		
 	</head>
 	<body style="padding:0;margin:0">
+	<marquee  style="width:100%;position:fixed;bottom:0;color:#fafafa;z-index:2">Update: Congratulations to all the conveners and co-conveners of core committees, Prajwalan 18.</marquee>
 	<div class="icon-bar">
 		  <a href="#" class="facebook"><i class="fa fa-facebook"></i></a> 
 		  <a href="#" class="twitter"><i class="fa fa-twitter"></i></a> 
@@ -115,8 +130,8 @@
 			include './common/header/header.php' ;
 		?>
 		<div class="fb absolute" id="slide_wrap">
-			<p class="f2 white f3-m f4-l">Sponsered By:</p>
-				<img  height="80px" class="  " id="slider" src='./img/cogni_as_title.png'>
+			<p class="f2 white f3-m f4-l" style="font-size:1.25rem">Sponsered By:</p>
+				<img   class="  " id="slider" src='./img/cogni_as_title.png'>
 		</div>
 		<div class='right_icons_div'>
 			

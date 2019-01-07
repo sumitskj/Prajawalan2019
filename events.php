@@ -46,10 +46,15 @@
 			include './common/header/header.php' ;
 		?>
         
-        
-		<div>
+        <div style="
+    text-align: center;
+    top: 50%;
+    left: 0;
+    position: fixed;
+    right: 0;">
             <h3 class="eve">Events are coming soon.....</h3>
         </div>
+		
 		
 		<script src="./common/background/background.js"></script>
 		
