@@ -87,11 +87,11 @@
 	<body style="padding:0;margin:0">
 	<marquee  style="width:100%;position:fixed;bottom:0;color:#fafafa;z-index:2">Update: Congratulations to all the conveners and co-conveners of core committees, Prajwalan 18.</marquee>
 	<div class="icon-bar">
-		  <a href="#" class="facebook"><i class="fa fa-facebook"></i></a> 
-		  <a href="#" class="twitter"><i class="fa fa-twitter"></i></a> 
-		  <a href="#" class="google"><i class="fa fa-google"></i></a> 
-		  <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
-		  <a href="#" class="youtube"><i class="fa fa-youtube"></i></a> 
+		  <a href="https://www.facebook.com/prajwalan.gcoea" class="facebook"><i class="fa fa-facebook"></i></a> 
+		  <a href="https://twitter.com/prajwalan5" class="twitter"><i class="fa fa-twitter"></i></a> 
+		  <a href="https://play.google.com/store/apps/details?id=org.prajwalan18.app.prajwalanapp" class="google"><i class="fa fa-play"></i></a> 
+		  <a href="https://www.instagram.com/prajwalan.techfest/" class="instagram"><i class="fa fa-instagram"></i></a>
+		  <a href="https://www.youtube.com/channel/UCGFvFsIlJsn_YQY4Q-pK5_Q" class="youtube"><i class="fa fa-youtube-play"></i></a> 
    </div>
 	<div class="light"></div>
 		<svg id="background" >
