@@ -1,10 +1,9 @@
 <html>
 	<head>
-<<<<<<< HEAD
-=======
+
 	<meta charset="utf-8">
  		<meta name="viewport" content="width=device-width, initial-scale=1">
->>>>>>> 8afd4ca6021a145e84f8f0fd4c72c0435a0dbc51
+
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<style>
 			
@@ -175,9 +174,11 @@
 					light.style.top = mouseY-100;
 					light.style.left = mouseX-100;
 					var rect_width =Math.max(Math.abs((mouseX-prevMouseX)),10);
-					drawTrapezoid(mouseX,mouseY,prevMouseX,prevMouseY,prevWidth,rect_width);
-					if(count>22){
-						background.removeChild(background.childNodes[count-20]);
+					if(window.innerWidth>600){
+						drawTrapezoid(mouseX,mouseY,prevMouseX,prevMouseY,prevWidth,rect_width);
+						if(count>22){
+							background.removeChild(background.childNodes[count-20]);
+						}
 					}
 					prevMouseX = mouseX;
 					prevMouseY = mouseY;
