@@ -75,7 +75,8 @@
 		<link rel="stylesheet" type="text/css" href="common/header/header.css">
 		<link rel="stylesheet" href="tachyons.css"/>
 
-		
+		<meta charset="utf-8">
+ 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 			
 		<script src="js/three.js-master/build/three.js"></script>
