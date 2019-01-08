@@ -1,7 +1,9 @@
 <html>
 	<head>
+
 	<meta charset="utf-8">
  		<meta name="viewport" content="width=device-width, initial-scale=1">
+
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<style>
 			
@@ -77,7 +79,10 @@
 		<link rel="stylesheet" type="text/css" href="common/header/header.css">
 		<link rel="stylesheet" href="tachyons.css"/>
 
-		
+
+		<meta charset="utf-8">
+ 		<meta name="viewport" content="width=device-width, initial-scale=1">
+
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 			
 		<script src="js/three.js-master/build/three.js"></script>
@@ -89,11 +94,13 @@
 	<body style="padding:0;margin:0">
 	<marquee  style="width:100%;position:fixed;bottom:0;color:#fafafa;z-index:2">Update: Congratulations to all the conveners and co-conveners of core committees, Prajwalan 18.</marquee>
 	<div class="icon-bar">
+
 		  <a href="https://www.facebook.com/prajwalan.gcoea" class="facebook"><i class="fa fa-facebook"></i></a> 
 		  <a href="https://twitter.com/prajwalan5" class="twitter"><i class="fa fa-twitter"></i></a> 
 		  <a href="https://play.google.com/store/apps/details?id=org.prajwalan18.app.prajwalanapp" class="google"><i class="fa fa-play"></i></a> 
 		  <a href="https://www.instagram.com/prajwalan.techfest/" class="instagram"><i class="fa fa-instagram"></i></a>
 		  <a href="https://www.youtube.com/channel/UCGFvFsIlJsn_YQY4Q-pK5_Q" class="youtube"><i class="fa fa-youtube-play"></i></a> 
+
    </div>
 	<div class="light"></div>
 		<svg id="background" >
@@ -167,9 +174,11 @@
 					light.style.top = mouseY-100;
 					light.style.left = mouseX-100;
 					var rect_width =Math.max(Math.abs((mouseX-prevMouseX)),10);
-					drawTrapezoid(mouseX,mouseY,prevMouseX,prevMouseY,prevWidth,rect_width);
-					if(count>22){
-						background.removeChild(background.childNodes[count-20]);
+					if(window.innerWidth>600){
+						drawTrapezoid(mouseX,mouseY,prevMouseX,prevMouseY,prevWidth,rect_width);
+						if(count>22){
+							background.removeChild(background.childNodes[count-20]);
+						}
 					}
 					prevMouseX = mouseX;
 					prevMouseY = mouseY;
