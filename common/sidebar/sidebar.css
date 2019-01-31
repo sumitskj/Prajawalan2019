@@ -5,7 +5,7 @@
     height: 100%;
     position: fixed;
     text-align: center;
-    left: 98.5%;
+    left: 100%;
     top: 0rem;
     z-index: 5;
 }
@@ -20,26 +20,22 @@ svg:hover{
 
 
 @keyframes expand{
-    0%{left: 98%;height: 100%;}
+    0%{left: 100%;height: 100%;}
     100%{left: 25%;height: 100%;}
 }
 @keyframes contract{
     0%{left: 25%;height: 100%;}
-    100%{left: 98%;height: 100%;}
+    100%{left: 100%;height: 100%;}
 }
 .menu-icon{
     width: 9%;
     margin: 4% 7%;
     height: 15%;
+    display: inline-block;
 }
 .menu-name{
-    width: 10%;
-    margin: 4% 6.5%;
-    margin-top: 13%;
-    margin-bottom: 2%;
-    color: #fafafa;
-    font-weight: bold;
-    display: inline-block;
+   
+    display: initial;
 }
 
 .overlay{
@@ -48,7 +44,7 @@ svg:hover{
     right: 0px;
     width: 0px;
     height: 100%;
-    background: black;
+    background: #fafafa;
 
 }
 @keyframes overlay-anim{
@@ -135,10 +131,11 @@ svg:hover{
 
   @media only screen and (max-width: 600px) {
     .ml14{
-        font-size: 1.4vw;
+        font-size: 2vw;
     }
     .menu-icon{
         width: 20%;
+        margin: 3% 7%;
     }
     .menu{
         left: 95%;
