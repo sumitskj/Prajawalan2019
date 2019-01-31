@@ -89,7 +89,6 @@
 		</style>
 		<link rel="stylesheet" type="text/css" href="main.css">
 		<link rel="stylesheet" type="text/css" href="social.css">
-
 		<link rel="stylesheet" type="text/css" href="common/sidebar/sidebar.css">
 		<link rel="stylesheet" type="text/css" href="common/header/header.css">
 		
@@ -233,15 +232,7 @@
 					broken_poly.style.fill = '#262f3e';
 					var tempMouseX = mouseX+200;
 					var tempPrevMousex = prevMouseX+200;
-					/*var animate = document.createElementNS('http://www.w3.org/2000/svg','animate');
-					animate.setAttribute('attributeName','points');
-					animate.setAttribute('to',tempPrevMousex+','+(y1+100)+' '+tempMouseX+','+(y2+100)+' '+tempMouseX+','+(y3+100)+' '+tempPrevMousex+','+(y4+100));
-					animate.setAttribute('dur','1s');
-					animate.setAttribute('fill','freeze');
-					animate.setAttribute('restart','never');
-					animate.setAttribute('begin',diff-1000+'ms');
-					animate.setAttribute('id',count);
-					broken_poly.append(animate);*/
+					
 					var animate = document.createElementNS('http://www.w3.org/2000/svg','animate');
 					animate.setAttribute('attributeType','CSS');
 					animate.setAttribute('attributeName','opacity');
