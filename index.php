@@ -100,10 +100,6 @@
 
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 			
-		<script src="js/three.js-master/build/three.min.js"></script>
-		<script src="js/three.js-master/examples/js/libs/tween.min.js"></script>
-		<script src="js/three.js-master/examples/js/controls/TrackballControls.js"></script>
-    <script src="js/three.js-master/examples/js/renderers/CSS3DRenderer.js"></script>
 		
 	</head>
 	<body style="padding:0;margin:0">
@@ -145,13 +141,19 @@
 				<div class="smalltext">Seconds</div>
 			</div>
 		</div>
-		<div id="container"></div>
+		
 		
 		
 		<?php 
 			include './common/sidebar/sidebar.php' ;
 			include './common/header/header.php' ;
 		?>
+		<div class="container">
+			<div><img src="logoN.png" id="container_logo" style="width: 35vh" /></div>
+			<div><img src="gray.png" class="container_circle" style="animation: clockwiseSpin 4s linear infinite" /></div>
+			<div><img src="black.png" class="container_circle" style="animation: antiClockwiseSpin 5s linear infinite" /></div>
+			<div><img src="gray_black.png" class="container_circle" style="animation: clockwiseSpin 6s linear infinite" /></div>
+		</div>
 	    <p class="spon" style="font-size:1.25rem">Sponsered By:</p>
 
 		<div class="fb absolute" id="slide_wrap">
@@ -164,13 +166,14 @@
 			<div>
 		</div>
 		
-		<script src="./background_main.js"></script>
+		<!--script src="./background_main.js"></script-->
 		<script>
 			/****** BACKGROUND SCRIPT *******/
 
 			var startTime;
 			window.onload = function(){
-				var myvar = window.setInterval(rotate,10);
+				var centre_circle = document.getElementsByClassName("container_circle");
+				var centre_logo = document.getElementById("container_logo");
 				startTime = new Date();
 				var background = document.getElementById("background");
 				var light = document.getElementsByClassName("light")[0];
@@ -183,8 +186,12 @@
 				document.onmousemove = function(event){
 					mouseX = event.clientX;
 					mouseY = event.clientY;
-					camera.position.x = (mouseX-screenWidth)*0.5;
-					camera.position.y = (mouseY-screenHeight)*0.5;
+					centre_logo.style.top = mouseY/15 + 'px';
+					centre_logo.style.left = mouseX/15 + 'px';
+					for(var i=0;i<3;i++){
+						centre_circle[i].style.top = mouseY/25 + 'px';
+						centre_circle[i].style.left = mouseX/25 + 'px';
+					}
 					light.style.top = mouseY-100;
 					light.style.left = mouseX-100;
 					var rect_width =Math.max(Math.abs((mouseX-prevMouseX)),10);
