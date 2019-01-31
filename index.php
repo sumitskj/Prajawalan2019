@@ -148,7 +148,7 @@
 			include './common/header/header.php' ;
 		?>
 		<div class="container">
-			<div><img src="logoN.png" id="container_logo" style="width: 35vh" /></div>
+			<div><img src="logoN.png" id="container_logo"  /></div>
 			<div><img src="gray.png" class="container_circle" style="animation: clockwiseSpin 4s linear infinite" /></div>
 			<div><img src="black.png" class="container_circle" style="animation: antiClockwiseSpin 5s linear infinite" /></div>
 			<div><img src="gray_black.png" class="container_circle" style="animation: clockwiseSpin 6s linear infinite" /></div>

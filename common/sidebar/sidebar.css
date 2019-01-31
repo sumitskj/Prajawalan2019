@@ -117,7 +117,7 @@ svg:hover{
 
   @media only screen and (max-width: 1000px) {
     .ml14 {
-      font-size: 1.1vw;
+      font-size: 1.3vw;
     }
     .menu-name{
         margin-top: 16vh;
@@ -131,7 +131,7 @@ svg:hover{
 
   @media only screen and (max-width: 600px) {
     .ml14{
-        font-size: 2vw;
+        font-size: 2.3vw;
     }
     .menu-icon{
         width: 20%;

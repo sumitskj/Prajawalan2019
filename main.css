@@ -49,6 +49,9 @@
     position: absolute;
     align-self: center;
 }
+#container_logo{
+    width: 35vh;
+}
 
 
 /*Notice Text*/
@@ -121,6 +124,28 @@
     .smalltext{
         font-size: 10px
     }
+    .container img{
+        position: relative;
+        width: 85vw;
+    }
+    #container_logo{
+        width: 55vw !important;
+    }
+    .light{
+        width: 200px;
+        height: 200px;
+    }
+    @keyframes light-anim{
+        0%{width: 120px;
+            height: 120px;}
+        50%{
+            width: 100px;
+        height: 100px;
+        }
+        100%{width: 120px;
+            height: 12  0px;}
+    }
+    
 }
 
 @media only screen and (max-width: 900px) {
