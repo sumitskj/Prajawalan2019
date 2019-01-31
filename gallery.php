@@ -16,7 +16,8 @@
 		
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-		
+		<link href="common/image/prajwalnicon.png" rel="icon">
+
 
 		<link href='http://fonts.googleapis.com/css?family=Roboto:400,300,100,500' rel='stylesheet' type='text/css'>
 		<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
@@ -54,10 +55,17 @@
 		<div class="row">
 
         <div id="fh5co-board" data-columns>
+            <?php for($i=31;$i>=26;$i--){ ?>
+			<div class="item">
+        		<div class="animate-box">
+	        		<a href="gallery/img/<?php echo ($i); ?>.jpeg" class="image-popup fh5co-board-img" title=" Workshop"><img src="gallery/img/<?php echo ($i); ?>.jpeg" alt="Free HTML5 Bootstrap template"></a>
+        		</div>
+        	</div>
+		<?php } ?>
 		<?php for($i=0;$i<25;$i++){ ?>
 			<div class="item">
         		<div class="animate-box">
-	        		<a href="gallery/img/<?php echo ($i+1); ?>.jpg" class="image-popup fh5co-board-img" title="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo, eos?"><img src="gallery/img/<?php echo ($i+1); ?>.jpg" alt="Free HTML5 Bootstrap template"></a>
+	        		<a href="gallery/img/<?php echo ($i+1); ?>.jpg" class="image-popup fh5co-board-img" title="Prajwalan 2018"><img src="gallery/img/<?php echo ($i+1); ?>.jpg" alt="Free HTML5 Bootstrap template"></a>
         		</div>
         	</div>
 		<?php } ?>

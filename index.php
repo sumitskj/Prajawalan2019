@@ -3,6 +3,7 @@
 
 	<meta charset="utf-8">
  		<meta name="viewport" content="width=device-width, initial-scale=1">
+ 		  <link href="common/image/prajwalnicon.png" rel="icon">
 
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<style>
@@ -56,7 +57,14 @@
 			#slide_wrap{
 					position: absolute;
 				    bottom: 5%;
-				    right: 7%;
+				    right: 9%;
+			}
+			@media only screen and (min-width: 600px) {
+			.spon{
+				position: absolute;
+				bottom: 110px;
+				right: 131px;
+			}
 			}
 			#slide_wrap img{
 				height: 10%
@@ -68,7 +76,14 @@
 					text-align: center
 				}
 				#slide_wrap img{
-					height: 5%
+					height: 7%
+				}
+				.spon{
+				position: absolute;
+				bottom: 12%;
+				left:0;
+				right:0;
+				text-align:center;
 				}
 			}
 		</style>
@@ -77,7 +92,7 @@
 
 		<link rel="stylesheet" type="text/css" href="common/sidebar/sidebar.css">
 		<link rel="stylesheet" type="text/css" href="common/header/header.css">
-		<link rel="stylesheet" href="tachyons.css"/>
+		
 
 
 		<meta charset="utf-8">
@@ -85,14 +100,14 @@
 
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 			
-		<script src="js/three.js-master/build/three.js"></script>
+		<script src="js/three.js-master/build/three.min.js"></script>
 		<script src="js/three.js-master/examples/js/libs/tween.min.js"></script>
 		<script src="js/three.js-master/examples/js/controls/TrackballControls.js"></script>
     <script src="js/three.js-master/examples/js/renderers/CSS3DRenderer.js"></script>
 		
 	</head>
 	<body style="padding:0;margin:0">
-	<marquee  style="width:100%;position:fixed;bottom:0;color:#fafafa;z-index:2">Update: Congratulations to all the conveners and co-conveners of core committees, Prajwalan 18.</marquee>
+	<marquee  style="width:100%;position:fixed;bottom:0;color:#fafafa;z-index:2">Update: Congratulations to all the conveners and co-conveners of core committees, Prajwalan 19.</marquee>
 	<div class="icon-bar">
 
 		  <a href="https://www.facebook.com/prajwalan.gcoea" class="facebook"><i class="fa fa-facebook"></i></a> 
@@ -105,9 +120,7 @@
 	<div class="light"></div>
 		<svg id="background" >
 				<defs>
-					<pattern id="img1" patternUnits="userSpaceOnUse" width="100%" height="100%">
-						<image xlink:href="./wall.jpg" x="0" y="0" width="100%" height="100%" />
-					</pattern>
+					
 					<linearGradient id="grad3" x1="0%" y1="0%" x2="100%" y2="0%">
 						<stop offset="0%" style="stop-color:rgb(0,255,255);stop-opacity:1" />
 						<stop offset="100%" style="stop-color:rgb(0,0,255);stop-opacity:1" />
@@ -139,9 +152,10 @@
 			include './common/sidebar/sidebar.php' ;
 			include './common/header/header.php' ;
 		?>
+	    <p class="spon" style="font-size:1.25rem">Sponsered By:</p>
+
 		<div class="fb absolute" id="slide_wrap">
-			<p class="f2 white f3-m f4-l" style="font-size:1.25rem">Sponsered By:</p>
-				<img   class="  " id="slider" src='./img/cogni_as_title.png'>
+				<img   class="  " id="slider" src='./sponimg/0.jpg'>
 		</div>
 		<div class='right_icons_div'>
 			
@@ -293,7 +307,7 @@
 				var timeinterval = setInterval(updateClock, 1000);
 				}
 
-				var deadline = new Date(2019,2,23,10,0,0);
+				var deadline = new Date('March 1, 2019 03:24:00');
 				initializeClock('clockdiv', deadline);
 		</script>
 				<script src="slide.js"></script>

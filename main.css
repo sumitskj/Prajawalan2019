@@ -112,3 +112,9 @@
         font-size: 10px
     }
 }
+
+@media only screen and (max-width: 900px) {
+ .right_icons_div{
+    opacity:0;
+}   
+}

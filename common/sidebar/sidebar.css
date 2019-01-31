@@ -48,7 +48,7 @@ svg:hover{
     right: 0px;
     width: 0px;
     height: 100%;
-    background: #fafafa;
+    background: black;
 
 }
 @keyframes overlay-anim{
@@ -76,9 +76,8 @@ svg:hover{
     height: 60px;
 }
 #strip{
-    width: 4.2vh;
-    height: 100%;
-    background-color: #fafafa;
+    width: 0%;
+    background-color: transparent;
 }
 .menu-line{
     
@@ -146,7 +145,7 @@ svg:hover{
     }
     .menu-name{
         width: 20%;
-        margin-top: 15vh;
-        margin-bottom: 3vh;
+        margin-top: 14vh;
+        margin-bottom: 2vh;
     }
   }
