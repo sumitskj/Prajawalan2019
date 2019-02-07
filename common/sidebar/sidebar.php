@@ -1,4 +1,3 @@
-
 <script src="./textanim.js"></script>
 <div class="menu" onclick="menuExpand()" >
 				<div>
@@ -129,7 +128,6 @@
             $('.ml14 .letters').each(function(){
             $(this).html($(this).text().replace(/([^\x00-\x80]|\w)/g, "<span class='letter'>$&</span>"));
             });
-
             anime.timeline({loop: false})
             .add({
                 targets: '.ml14 .line',
