@@ -159,7 +159,7 @@
 				<img src="digital_india.png"/>
 			</div>
 		</div>
-	    <p class="spon" style="font-size:1.25rem">Sponsered By:</p>
+	    <p class="spon" style="font-size:1.25rem">Sponsored By:</p>
 
 		<div class="fb absolute" id="slide_wrap">
 				<img   class="  " id="slider" src='./sponimg/0.jpg'>

@@ -6,7 +6,6 @@ var imgArray = [
     "./sponimg/cogni_as_title.png",
     "./sponimg/gateforum.jpg",
     "./sponimg/gauri.png",
-    "./sponimg/gauri.png",
     "./sponimg/ie.jpg",
     "./sponimg/makhija.jpg",
     "./sponimg/marasim.jpg",
