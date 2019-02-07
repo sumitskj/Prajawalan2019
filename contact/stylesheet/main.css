@@ -101,8 +101,9 @@ h1{
 
   @media only screen and (max-width: 900px) {
     .card{
-      left:25px;
-      margin-right: 30px;
+      left:-6%;
+      
+      margin-right: 20%;
     }
 
   }
@@ -126,10 +127,16 @@ h1{
   .sidepanel a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 15px;
     color: #818181;
     display: block;
     transition: 0.3s;
+  }
+  @media only screen and (max-width: 900px) {
+  .sidepanel a{
+      font-size: 20px;
+  }
+      
   }
   
   /* When you mouse over the navigation links, change their color */
