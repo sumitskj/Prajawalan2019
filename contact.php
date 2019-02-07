@@ -16,13 +16,13 @@
 		
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+ 		<link href="common/image/prajwalnicon.png" rel="icon">
 		
 
 		<link href='http://fonts.googleapis.com/css?family=Roboto:400,300,100,500' rel='stylesheet' type='text/css'>
 		<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 		
 		<link rel="stylesheet" type="text/css" href="common/sidebar/sidebar.css">
-		<link rel="stylesheet" type="text/css" href="common/header/header.css">
         <link rel="stylesheet" type="text/css" href="common/background/background.css">
         
         <link rel="stylesheet" type="text/css" media="screen" href="./contact/stylesheet/bootstrap.min.css" />
@@ -36,6 +36,8 @@
 		<script src="js/three.js-master/examples/js/controls/TrackballControls.js"></script>
         <script src="js/three.js-master/examples/js/renderers/CSS3DRenderer.js"></script>
         <script src="./contact/js/bootstrap.min.js"></script>
+		
+		
 		
 	</head>
 	<body style="padding:0;margin:0">
@@ -70,7 +72,6 @@
 function openNav() {
   document.getElementById("mySidepanel").style.width = "250px";
 }
-
 function closeNav() {
   document.getElementById("mySidepanel").style.width = "0";
 }
@@ -88,11 +89,11 @@ function closeNav() {
             <div class="flip-card rounded">
             <div class="flip-card-inner">
                                   <div class="flip-card-front">
-                                    <img src="./contact/img/male-noimage.jpg" class="img-fluid" alt="Avatar" >
+                                    <img src="./contact/img/male-noimage.png" class="img-fluid" alt="Avatar" >
                                   </div>
                                   <div class="flip-card-back">
-                                    <h1>R B sharma</h1> 
-                                    <h2>Faculty incharge</h2> 
+                                    <h1>Dr. R.B.sharma</h1> 
+                                    <h2 class="sub">Faculty incharge</h2> 
                                   </div>
                                 </div>
             </div>
@@ -113,7 +114,7 @@ function closeNav() {
                                   </div>
                                   <div class="flip-card-back">
                                     <h1>Rohit Jamnare</h1> 
-                                    <h2>Overall Convenor</h2> 
+                                    <h2 class="sub">Overall Convener</h2> 
                                   </div>
                                 </div>
             </div>
@@ -128,7 +129,7 @@ function closeNav() {
                                   </div>
                                   <div class="flip-card-back">
                                     <h1>Suved Ghanmode</h1> 
-                                    <h2>Organising Secretary</h2> 
+                                    <h2 class="sub">Organizing Secretary</h2> 
                                   </div>
                                 </div>
             </div>
@@ -147,7 +148,7 @@ function closeNav() {
                                   </div>
                                   <div class="flip-card-back">
                                     <h1 class="name">Akash Jeswani</h1> 
-                                    <h2 class="sub">Co-convener</h2> 
+                                    <h2 class="sub">Overall Co-convener</h2> 
                                   </div>
                                 </div>
             </div>
@@ -163,7 +164,7 @@ function closeNav() {
                                   </div>
                                   <div class="flip-card-back">
                                     <h1 class="name">Shivam Nakod</h1> 
-                                    <h2 class="sub">Co-convenor</h2> 
+                                    <h2 class="sub">Overall Co-convener</h2> 
                                   </div>
                                 </div>
             </div>
@@ -180,7 +181,7 @@ function closeNav() {
                                   </div>
                                   <div class="flip-card-back">
                                     <h1 class="name">Kshitija Maye</h1> 
-                                    <h2 class="sub">Co-convenor</h2> 
+                                    <h2 class="sub">Overall Co-convener</h2> 
                                   </div>
                                 </div>
             </div>
@@ -204,7 +205,7 @@ function closeNav() {
                                   </div>
                                   <div class="flip-card-back">
                                     <h1 class="name">Rohit Balage</h1> 
-                                    <h2 class="sub">Convenor</h2> 
+                                    <h2 class="sub">Convener</h2> 
                                   </div>
                                 </div>
             </div>
@@ -220,7 +221,7 @@ function closeNav() {
                                   </div>
                                   <div class="flip-card-back">
                                     <h1 class="name">Sumit Kumar Jangir</h1> 
-                                    <h2 class="sub">Convenor</h2> 
+                                    <h2 class="sub">Convener</h2> 
                                   </div>
                                 </div>
             </div>
@@ -237,7 +238,7 @@ function closeNav() {
                                   </div>
                                   <div class="flip-card-back">
                                     <h1 class="name">Saurish Darodkar</h1> 
-                                    <h2 class="sub">Co-Convenor</h2> 
+                                    <h2 class="sub">Co-Convener</h2> 
                                   </div>
                                 </div>
             </div>
@@ -251,11 +252,11 @@ function closeNav() {
             <div class="flip-card rounded">
             <div class="flip-card-inner">
                                   <div class="flip-card-front">
-                                    <img src="./contact/img/WebApp/rohit.jpg" class="img-fluid" alt="Avatar" >
+                                    <img src="./contact/img/female-noimage.jpg" class="img-fluid" alt="Avatar" >
                                   </div>
                                   <div class="flip-card-back">
                                     <h1 class="name">Pooja Karangale  </h1> 
-                                    <h2 class="sub">Co-convenor</h2> 
+                                    <h2 class="sub">Co-convener</h2> 
                                   </div>
                                 </div>
             </div>
@@ -267,11 +268,11 @@ function closeNav() {
             <div class="flip-card rounded">
             <div class="flip-card-inner">
                                   <div class="flip-card-front">
-                                    <img src="./contact/img/WebApp/sumit.jpg" class="img-fluid" alt="Avatar" >
+                                    <img src="./contact/img/WebApp/nadeem.jpeg" class="img-fluid" alt="Avatar" >
                                   </div>
                                   <div class="flip-card-back">
                                     <h1 class="name">Nadeem Bhati </h1> 
-                                    <h2 class="sub">Co-convenor</h2> 
+                                    <h2 class="sub">Co-convener</h2> 
                                   </div>
                                 </div>
             </div>
@@ -284,11 +285,11 @@ function closeNav() {
             <div class="flip-card rounded">
             <div class="flip-card-inner">
                                   <div class="flip-card-front">
-                                    <img src="./contact/img/WebApp/saurish.jpg" class="img-fluid" alt="Avatar" >
+                                    <img src="./contact/img/female-noimage.jpg" class="img-fluid" alt="Avatar" >
                                   </div>
                                   <div class="flip-card-back">
                                     <h1 class="name">Charu Vidhani </h1> 
-                                    <h2 class="sub">Co-Convenor</h2> 
+                                    <h2 class="sub">Co-Convener</h2> 
                                   </div>
                                 </div>
             </div>
@@ -318,7 +319,7 @@ function closeNav() {
                                   </div>
                                   <div class="flip-card-back">
                                     <h1>Ameya Deshpande</h1> 
-                                    <h2>Convenor</h2> 
+                                    <h2 class="sub">Convener</h2> 
                                   </div>
                                 </div>
             </div>
@@ -333,7 +334,7 @@ function closeNav() {
                                   </div>
                                   <div class="flip-card-back">
                                     <h1>Apurva Bedre</h1> 
-                                    <h2>Convenor</h2> 
+                                    <h2 class="sub">Convener</h2> 
                                   </div>
                                 </div>
             </div>
@@ -344,11 +345,11 @@ function closeNav() {
             <div class="flip-card rounded">
             <div class="flip-card-inner">
                                   <div class="flip-card-front">
-                                    <img src="./contact/img/male-noimage.png" class="img-fluid" alt="Avatar" >
+                                    <img src="./contact/img/core-support/shreyas.jpeg" class="img-fluid" alt="Avatar" >
                                   </div>
                                   <div class="flip-card-back">
                                     <h1>Shreyash Chavda</h1> 
-                                    <h2>Co-convenor</h2> 
+                                    <h2 class="sub">Co-convener</h2> 
                                   </div>
                                 </div>
             </div>
@@ -366,7 +367,7 @@ function closeNav() {
                                   </div>
                                   <div class="flip-card-back">
                                     <h1>Khushal Kothale</h1> 
-                                    <h2>Co-convenor</h2> 
+                                    <h2 class="sub">Co-convener</h2> 
                                   </div>
                                 </div>
             </div>
@@ -381,7 +382,7 @@ function closeNav() {
                                   </div>
                                   <div class="flip-card-back">
                                     <h1>Ganesh Dutare</h1> 
-                                    <h2>Co-convenor</h2> 
+                                    <h2 class="sub">Co-convener</h2> 
                                   </div>
                                 </div>
             </div>
@@ -396,7 +397,7 @@ function closeNav() {
                                   </div>
                                   <div class="flip-card-back">
                                     <h1>Radhika Patharkar</h1> 
-                                    <h2>Co-convenor</h2> 
+                                    <h2 class="sub">Co-convener</h2> 
                                   </div>
                                 </div>
             </div>
@@ -416,11 +417,11 @@ function closeNav() {
             <div class="flip-card rounded">
             <div class="flip-card-inner">
                                   <div class="flip-card-front">
-                                    <img src="./contact/img/female-noimage.jpg" class="img-fluid" alt="Avatar" >
+                                    <img src="./contact/img/core-sponsor/eshwari.jpeg" class="img-fluid" alt="Avatar" >
                                   </div>
                                   <div class="flip-card-back">
                                     <h1>Eshwari Shingwekar</h1> 
-                                    <h2>Convenor</h2> 
+                                    <h2 class="sub">Convener</h2> 
                                   </div>
                                 </div>
             </div>
@@ -431,11 +432,11 @@ function closeNav() {
             <div class="flip-card rounded">
             <div class="flip-card-inner">
                                   <div class="flip-card-front">
-                                    <img src="./contact/img/male-noimage.png" class="img-fluid" alt="Avatar" >
+                                    <img src="./contact/img/core-sponsor/dhanuka.jpg" class="img-fluid" alt="Avatar" >
                                   </div>
                                   <div class="flip-card-back">
                                     <h1>Pratik Dhanuka </h1> 
-                                    <h2>Co-convenor</h2> 
+                                    <h2 class="sub">Co-convener</h2> 
                                   </div>
                                 </div>
             </div>
@@ -450,7 +451,7 @@ function closeNav() {
                                   </div>
                                   <div class="flip-card-back">
                                     <h1>Ashwin Ramidhami</h1> 
-                                    <h2>Co-convenor</h2> 
+                                    <h2 class="sub">Co-convener</h2> 
                                   </div>
                                 </div>
             </div>
@@ -474,11 +475,11 @@ function closeNav() {
             <div class="flip-card rounded">
             <div class="flip-card-inner">
                                   <div class="flip-card-front">
-                                    <img src="./contact/img/event-sponsorship/bhushan.jpg" class="img-fluid" alt="Avatar" >
+                                    <img src="./contact/img/event-sponsorship/bhusan.jpeg" class="img-fluid" alt="Avatar" >
                                   </div>
                                   <div class="flip-card-back">
                                     <h1>Bhushan Agarwal</h1> 
-                                    <h2>Convenor</h2> 
+                                    <h2 class="sub">Convener</h2> 
                                   </div>
             </div>
             </div>
@@ -493,7 +494,7 @@ function closeNav() {
                                   </div>
                                   <div class="flip-card-back">
                                     <h1>Subodh Wasekar</h1> 
-                                    <h2>Co-convenor</h2> 
+                                    <h2 class="sub">Co-convener</h2> 
                                   </div>
             </div>
             </div>
@@ -508,7 +509,7 @@ function closeNav() {
                                   </div>
                                   <div class="flip-card-back">
                                     <h1>Shruti Tarale </h1> 
-                                    <h2>Co-convenor</h2> 
+                                    <h2 class="sub">Co-convener</h2> 
                                   </div>
             </div>
             </div>
@@ -527,7 +528,7 @@ function closeNav() {
                                   </div>
                                   <div class="flip-card-back">
                                     <h1>B. Rampurwala </h1> 
-                                    <h2>Co-convenor</h2> 
+                                    <h2 class="sub">Co-convenor</h2> 
                                   </div>
                                 </div>
             </div>
@@ -538,11 +539,11 @@ function closeNav() {
             <div class="flip-card rounded">
             <div class="flip-card-inner">
                                   <div class="flip-card-front">
-                                    <img src="./contact/img/female-noimage.jpg" class="img-fluid" alt="Avatar" >
+                                    <img src="./contact/img/event-sponsorship/susmita.jpeg" class="img-fluid" alt="Avatar" >
                                   </div>
                                   <div class="flip-card-back">
                                     <h1>Sushmita Khadse</h1> 
-                                    <h2>Co-convenor</h2> 
+                                    <h2 class="sub">Co-convenor</h2> 
                                   </div>
                                 </div>
             </div>
@@ -564,11 +565,11 @@ function closeNav() {
             <div class="flip-card rounded">
             <div class="flip-card-inner">
                                   <div class="flip-card-front">
-                                    <img src="./contact/img/alumini-sponsorship/shweta.jpg" class="img-fluid" alt="Avatar" >
+                                    <img src="./contact/img/alumini-sponsorship/shweta.jpeg" class="img-fluid" alt="Avatar" >
                                   </div>
                                   <div class="flip-card-back">
                                     <h1>Shweta Joshi</h1> 
-                                    <h2>Convenor</h2> 
+                                    <h2 class="sub">Convenor</h2> 
                                   </div>
             </div>
             </div>
@@ -583,7 +584,7 @@ function closeNav() {
                                   </div>
                                   <div class="flip-card-back">
                                     <h1>Akansha Baheti </h1> 
-                                    <h2>Co-convenor</h2> 
+                                    <h2 class="sub">Co-convenor</h2> 
                                   </div>
             </div>
             </div>
@@ -598,7 +599,7 @@ function closeNav() {
                                   </div>
                                   <div class="flip-card-back">
                                     <h1>Kartik Ingale</h1> 
-                                    <h2>Co-convenor</h2> 
+                                    <h2 class="sub">Co-convenor</h2> 
                                   </div>
             </div>
             </div>
@@ -617,11 +618,11 @@ function closeNav() {
             <div class="flip-card rounded">
             <div class="flip-card-inner">
                                   <div class="flip-card-front">
-                                    <img src="./contact/img/female-noimage.jpg" class="img-fluid" alt="Avatar" >
+                                    <img src="./contact/img/publicity/harshada.jpeg" class="img-fluid" alt="Avatar" >
                                   </div>
                                   <div class="flip-card-back">
                                     <h1 class="name">Harshada Ingole</h1> 
-                                    <h2>Convenor</h2> 
+                                    <h2 class="sub">Convenor</h2> 
                                   </div>
                                 </div>
             </div>
@@ -633,11 +634,11 @@ function closeNav() {
             <div class="flip-card rounded">
             <div class="flip-card-inner">
                                   <div class="flip-card-front">
-                                    <img src="./contact/img/male-noimage.png" class="img-fluid" alt="Avatar" >
+                                    <img src="./contact/img/publicity/shyam.jpeg" class="img-fluid" alt="Avatar" >
                                   </div>
                                   <div class="flip-card-back">
                                     <h1 class="name">Shyam Kulkarni</h1> 
-                                    <h2>Convenor</h2> 
+                                    <h2 class="sub">Convenor</h2> 
                                   </div>
                                 </div>
             </div>
@@ -650,11 +651,11 @@ function closeNav() {
             <div class="flip-card rounded">
             <div class="flip-card-inner">
                                   <div class="flip-card-front">
-                                    <img src="./contact/img/female-noimage.jpg" class="img-fluid" alt="Avatar" >
+                                    <img src="./contact/img/publicity/palak.jpeg" class="img-fluid" alt="Avatar" >
                                   </div>
                                   <div class="flip-card-back">
                                     <h1 class="name">Palak Katira</h1> 
-                                    <h2>Convenor</h2> 
+                                    <h2 class="sub">Convenor</h2> 
                                   </div>
                                 </div>
             </div>
@@ -672,7 +673,7 @@ function closeNav() {
                                   </div>
                                   <div class="flip-card-back">
                                     <h1 class="name">Ashlesh Waghmare</h1> 
-                                    <h2>Co-convenor</h2> 
+                                    <h2 class="sub">Co-convenor</h2> 
                                   </div>
                                 </div>
             </div>
@@ -688,7 +689,7 @@ function closeNav() {
                                   </div>
                                   <div class="flip-card-back">
                                     <h1 class="name">Khushal Sadafale </h1> 
-                                    <h2>Co-convenor</h2> 
+                                    <h2 class="sub">Co-convenor</h2> 
                                   </div>
                                 </div>
             </div>
@@ -701,11 +702,11 @@ function closeNav() {
             <div class="flip-card rounded">
             <div class="flip-card-inner">
                                   <div class="flip-card-front">
-                                    <img src="./contact/img/male-noimage.png" class="img-fluid" alt="Avatar" >
+                                    <img src="./contact/img/publicity/deepam.jpeg" class="img-fluid" alt="Avatar" >
                                   </div>
                                   <div class="flip-card-back">
                                     <h1 class="name">Deepam Chandak</h1> 
-                                    <h2>Co-convenor</h2> 
+                                    <h2 class="sub">Co-convenor</h2> 
                                   </div>
                                 </div>
             </div>
@@ -730,7 +731,7 @@ function closeNav() {
                                   </div>
                                   <div class="flip-card-back">
                                     <h1>Prachi Thakur</h1> 
-                                    <h2>Convenor</h2> 
+                                    <h2 class="sub">Convenor</h2> 
                                   </div>
             </div>
             </div>
@@ -745,7 +746,7 @@ function closeNav() {
                                   </div>
                                   <div class="flip-card-back">
                                     <h1>Kiran Sakhare </h1> 
-                                    <h2>Co-convenor</h2> 
+                                    <h2 class="sub">Co-convenor</h2> 
                                   </div>
             </div>
             </div>
@@ -760,7 +761,7 @@ function closeNav() {
                                   </div>
                                   <div class="flip-card-back">
                                     <h1>Vaishnav Vaidya</h1> 
-                                    <h2>Co-convenor</h2> 
+                                    <h2 class="sub">Co-convenor</h2> 
                                   </div>
             </div>
             </div>
@@ -784,7 +785,7 @@ function closeNav() {
                                   </div>
                                   <div class="flip-card-back">
                                     <h1 class="name">Mohit Lalwani</h1> 
-                                    <h2>Convenor</h2> 
+                                    <h2 class="sub">Convenor</h2> 
                                   </div>
                                 </div>
             </div>
@@ -800,7 +801,7 @@ function closeNav() {
                                   </div>
                                   <div class="flip-card-back">
                                     <h1 class="name">Pradeep Nokwal</h1> 
-                                    <h2>Convenor</h2> 
+                                    <h2 class="sub">Convenor</h2> 
                                   </div>
                                 </div>
             </div>
@@ -817,7 +818,7 @@ function closeNav() {
                                   </div>
                                   <div class="flip-card-back">
                                     <h1 class="name">Yash Bhandarwar</h1> 
-                                    <h2>Convenor</h2> 
+                                    <h2 class="sub">Convenor</h2> 
                                   </div>
                                 </div>
             </div>
@@ -835,7 +836,7 @@ function closeNav() {
                                   </div>
                                   <div class="flip-card-back">
                                     <h1 class="name">Susmit Shegokar </h1> 
-                                    <h2>Co-convenor</h2> 
+                                    <h2 class="sub">Co-convenor</h2> 
                                   </div>
                                 </div>
             </div>
@@ -847,11 +848,11 @@ function closeNav() {
             <div class="flip-card rounded">
             <div class="flip-card-inner">
                                   <div class="flip-card-front">
-                                    <img src="./contact/img/male-noimage.png" class="img-fluid" alt="Avatar" >
+                                    <img src="./contact/img/designing/aniket.jpeg" class="img-fluid" alt="Avatar" >
                                   </div>
                                   <div class="flip-card-back">
                                     <h1 class="name">Aniket Itankar  </h1> 
-                                    <h2>Co-convenor</h2> 
+                                    <h2 class="sub">Co-convenor</h2> 
                                   </div>
                                 </div>
             </div>
@@ -868,7 +869,7 @@ function closeNav() {
                                   </div>
                                   <div class="flip-card-back">
                                     <h1 class="name">Pallavi Meshram </h1> 
-                                    <h2>Co-convenor</h2> 
+                                    <h2 class="sub">Co-convenor</h2> 
                                   </div>
                                 </div>
             </div>
@@ -893,7 +894,7 @@ function closeNav() {
                                   </div>
                                   <div class="flip-card-back">
                                     <h1>Ankit Warjurkar </h1> 
-                                    <h2>Convenor</h2> 
+                                    <h2 class="sub">Convenor</h2> 
                                   </div>
             </div>
             </div>
@@ -904,11 +905,11 @@ function closeNav() {
             <div class="flip-card rounded">
             <div class="flip-card-inner">
                                   <div class="flip-card-front">
-                                    <img src="./contact/img/female-noimage.jpg" class="img-fluid" alt="Avatar" >
+                                    <img src="./contact/img/networking/namrata.jpeg" class="img-fluid" alt="Avatar" >
                                   </div>
                                   <div class="flip-card-back">
                                     <h1>Namrata Gajbhiye </h1> 
-                                    <h2>Convenor</h2> 
+                                    <h2 class="sub">Convenor</h2> 
                                   </div>
             </div>
             </div>
@@ -919,11 +920,11 @@ function closeNav() {
             <div class="flip-card rounded">
             <div class="flip-card-inner">
                                   <div class="flip-card-front">
-                                    <img src="./contact/img/male-noimage.png" class="img-fluid" alt="Avatar" >
+                                    <img src="./contact/img/networking/chetan.jpeg" class="img-fluid" alt="Avatar" >
                                   </div>
                                   <div class="flip-card-back">
                                     <h1>Chetan Sharma </h1> 
-                                    <h2>Co-convenor</h2> 
+                                    <h2 class="sub">Co-convenor</h2> 
                                   </div>
             </div>
             </div>
@@ -938,11 +939,11 @@ function closeNav() {
             <div class="flip-card rounded">
             <div class="flip-card-inner">
                                   <div class="flip-card-front">
-                                    <img src="./contact/img/male-noimage.png" class="img-fluid" alt="Avatar" >
+                                    <img src="./contact/img/networking/moiz.jpeg" class="img-fluid" alt="Avatar" >
                                   </div>
                                   <div class="flip-card-back">
                                     <h1>Moiz Essaji </h1> 
-                                    <h2>Co-convenor</h2> 
+                                    <h2 class="sub">Co-convenor</h2> 
                                   </div>
                                 </div>
             </div>
@@ -953,11 +954,11 @@ function closeNav() {
             <div class="flip-card rounded">
             <div class="flip-card-inner">
                                   <div class="flip-card-front">
-                                    <img src="./contact/img/female-noimage.jpg" class="img-fluid" alt="Avatar" >
+                                    <img src="./contact/img/networking/pragti.jpeg" class="img-fluid" alt="Avatar" >
                                   </div>
                                   <div class="flip-card-back">
                                     <h1>Pragati Bub </h1> 
-                                    <h2>Co-convenor</h2> 
+                                    <h2 class="sub">Co-convenor</h2> 
                                   </div>
                                 </div>
             </div>
@@ -982,7 +983,7 @@ function closeNav() {
                                   </div>
                                   <div class="flip-card-back">
                                     <h1 class="name">Lankesh Purekar</h1> 
-                                    <h2>Convenor</h2> 
+                                    <h2 class="sub">Convenor</h2> 
                                   </div>
                                 </div>
             </div>
@@ -998,7 +999,7 @@ function closeNav() {
                                   </div>
                                   <div class="flip-card-back">
                                     <h1 class="name">Sharayu Dahake</h1> 
-                                    <h2>Convenor</h2> 
+                                    <h2 class="sub">Convenor</h2> 
                                   </div>
                                 </div>
             </div>
@@ -1015,7 +1016,7 @@ function closeNav() {
                                   </div>
                                   <div class="flip-card-back">
                                     <h1 class="name">Sangal Sahare</h1> 
-                                    <h2>Convenor</h2> 
+                                    <h2 class="sub">Convenor</h2> 
                                   </div>
                                 </div>
             </div>
@@ -1033,7 +1034,7 @@ function closeNav() {
                                   </div>
                                   <div class="flip-card-back">
                                     <h1 class="name">Chetan Kshirsagar </h1> 
-                                    <h2>Co-convenor</h2> 
+                                    <h2 class="sub">Co-convenor</h2> 
                                   </div>
                                 </div>
             </div>
@@ -1049,7 +1050,7 @@ function closeNav() {
                                   </div>
                                   <div class="flip-card-back">
                                     <h1 class="name">Sumedha Deshmukh </h1> 
-                                    <h2>Co-convenor</h2> 
+                                    <h2 class="sub">Co-convenor</h2> 
                                   </div>
                                 </div>
             </div>
@@ -1062,11 +1063,11 @@ function closeNav() {
             <div class="flip-card rounded">
             <div class="flip-card-inner">
                                   <div class="flip-card-front">
-                                    <img src="./contact/img/female-noimage.jpg" class="img-fluid" alt="Avatar" >
+                                    <img src="./contact/img/Infra/kajal.jpeg" class="img-fluid" alt="Avatar" >
                                   </div>
                                   <div class="flip-card-back">
                                     <h1 class="name">Kajal Agrawal</h1> 
-                                    <h2>Co-convenor</h2> 
+                                    <h2 class="sub">Co-convenor</h2> 
                                   </div>
                                 </div>
             </div>
@@ -1090,7 +1091,7 @@ function closeNav() {
                                   </div>
                                   <div class="flip-card-back">
                                     <h1>Padmini Shinde</h1> 
-                                    <h2>Convenor</h2> 
+                                    <h2 class="sub">Convenor</h2> 
                                   </div>
             </div>
             </div>
@@ -1105,7 +1106,7 @@ function closeNav() {
                                   </div>
                                   <div class="flip-card-back">
                                     <h1>Sarthak Shrivastav </h1> 
-                                    <h2>Co-convenor</h2> 
+                                    <h2 class="sub">Co-convenor</h2> 
                                   </div>
             </div>
             </div>
@@ -1120,7 +1121,7 @@ function closeNav() {
                                   </div>
                                   <div class="flip-card-back">
                                     <h1>Prathamesh Khuje</h1> 
-                                    <h2>Co-convenor</h2> 
+                                    <h2 class="sub" >Co-convenor</h2> 
                                   </div>
             </div>
             </div>
@@ -1145,7 +1146,7 @@ function closeNav() {
                                   </div>
                                   <div class="flip-card-back">
                                     <h1>Pratiksha Parashar</h1> 
-                                    <h2>Convenor</h2> 
+                                    <h2 class="sub">Convenor</h2> 
                                   </div>
             </div>
             </div>
@@ -1160,7 +1161,7 @@ function closeNav() {
                                   </div>
                                   <div class="flip-card-back">
                                     <h1>Niket Lekariya </h1> 
-                                    <h2>Co-convenor</h2> 
+                                    <h2 class="sub">Co-convenor</h2> 
                                   </div>
             </div>
             </div>
@@ -1175,7 +1176,7 @@ function closeNav() {
                                   </div>
                                   <div class="flip-card-back">
                                     <h1>Abhishek Selokar </h1> 
-                                    <h2>Co-convenor</h2> 
+                                    <h2 class="sub">Co-convenor</h2> 
                                   </div>
             </div>
             </div>
