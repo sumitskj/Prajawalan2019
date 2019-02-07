@@ -152,6 +152,12 @@
 			<div><img src="gray.png" class="container_circle" style="animation: clockwiseSpin 4s linear infinite" /></div>
 			<div><img src="black.png" class="container_circle" style="animation: antiClockwiseSpin 5s linear infinite" /></div>
 			<div><img src="gray_black.png" class="container_circle" style="animation: clockwiseSpin 6s linear infinite" /></div>
+			<div class="patronage">
+			<h6 style="text-align: center; padding:0px;margin-bottom:10px">Recieves Patronage from:</h6>
+				<img src="./make_in_india.png"/>
+				<img src="unisco.png"/>
+				<img src="digital_india.png"/>
+			</div>
 		</div>
 	    <p class="spon" style="font-size:1.25rem">Sponsered By:</p>
 
